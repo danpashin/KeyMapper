@@ -659,6 +659,8 @@ object InputEventUtils {
         "KEY_CAMERA_FOCUS" to KeyEvent.KEYCODE_FOCUS,
         "02fe" to KeyEvent.KEYCODE_CAMERA,
         "00fa" to KeyEvent.KEYCODE_CAMERA,
+        "KEY_CHANNELUP" to KeyEvent.KEYCODE_CHANNEL_UP,
+        "KEY_CHANNELDOWN" to KeyEvent.KEYCODE_CHANNEL_DOWN,
 
         // This kernel key event code seems to be the Bixby button
         // but different ROMs have different key maps and so

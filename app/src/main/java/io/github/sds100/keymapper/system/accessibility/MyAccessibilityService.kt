@@ -116,7 +116,7 @@ class MyAccessibilityService :
                 if (controller != null) {
                     return controller!!.onKeyEventFromIme(
                         MyKeyEvent(
-                            keyCode = event.keyCode,
+                            keyCode = event.scanCode,
                             action = event.action,
                             metaState = event.metaState,
                             scanCode = event.scanCode,
@@ -266,7 +266,7 @@ class MyAccessibilityService :
         if (controller != null) {
             return controller!!.onKeyEvent(
                 MyKeyEvent(
-                    keyCode = event.keyCode,
+                    keyCode = event.scanCode,
                     action = event.action,
                     metaState = event.metaState,
                     scanCode = event.scanCode,
